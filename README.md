@@ -144,7 +144,7 @@ git clone <link-do-repositorio>
 **2. Entrar na pasta do projeto**
 
 ```
-cd dev-tasks
+cd CP4-web
 ```
 
 **3. Instalar as dependências**
@@ -194,7 +194,7 @@ Projeto desenvolvido para a disciplina de **Web Dev**, sob orientação do Profe
 
 ## 🔗 Repositório GitHub
 
-`https://cp4-webdev-ten.vercel.app/`
+**[🌐 Acessar Projeto](https://cp4-webdev-ten.vercel.app/)**
 
 ---
 
