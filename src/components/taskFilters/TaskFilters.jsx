@@ -17,7 +17,7 @@ function TaskFilters({ filtroAtivo, onChangeFilter }) {
           onClick={() => onChangeFilter(opcao.valor)}
           className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
             filtroAtivo === opcao.valor
-              ? "bg-green-600 text-white"
+              ? "bg-blue-700 text-white"
               : "bg-slate-800 text-slate-300 hover:bg-slate-700"
           }`}
         >

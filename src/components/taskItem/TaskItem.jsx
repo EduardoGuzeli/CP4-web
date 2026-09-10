@@ -18,7 +18,7 @@ function TaskItem({ tarefa, onToggleConcluida, onRemoveTarefa }) {
         type="checkbox"
         checked={tarefa.concluida}
         onChange={() => onToggleConcluida(tarefa.id)}
-        className="mt-1.5 h-4 w-4 accent-indigo-600"
+        className="mt-1.5 h-4 w-4 accent-blue-600"
       />
 
       <div className="min-w-0 flex-1"> 

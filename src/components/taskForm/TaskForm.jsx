@@ -48,7 +48,7 @@ function TaskForm({ onAddTask }) {
           value={nome}
           onChange={(e) => setNome(e.target.value)}
           placeholder="Ex: Corrigir bug no login"
-          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-indigo-500"
+          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-blue-900"
           required
         />
       </div>
@@ -61,7 +61,7 @@ function TaskForm({ onAddTask }) {
           type="date"
           value={data}
           onChange={(e) => setData(e.target.value)}
-          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-indigo-500"
+          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-blue-900"
         />
       </div>
 
@@ -72,7 +72,7 @@ function TaskForm({ onAddTask }) {
         <select
           value={prioridade}
           onChange={(e) => setPrioridade(e.target.value)}
-          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-indigo-500"
+          className="w-full rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-blue-900"
         >
           <option value="Baixa">Baixa</option>
           <option value="Média">Média</option>
@@ -89,13 +89,13 @@ function TaskForm({ onAddTask }) {
           onChange={(e) => setDescricao(e.target.value)}
           placeholder="Detalhes da tarefa..."
           rows={3}
-          className="w-full resize-none rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-indigo-500"
+          className="w-full resize-none rounded-lg border border-slate-700 bg-slate-800 px-3 py-2 text-slate-100 outline-none focus:border-blue-900"
         />
       </div>
 
       <button
         type="submit"
-        className="sm:col-span-2 rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white transition hover:bg-indigo-500">
+        className="sm:col-span-2 rounded-lg bg-blue-950 px-4 py-2 font-medium text-white transition hover:bg-blue-800">
         Adicionar tarefa
       </button>
     </form>

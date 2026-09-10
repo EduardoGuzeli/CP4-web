@@ -62,7 +62,7 @@ function App() {
   const totalConcluidas = tarefas.filter((t) => t.concluida).length;
 
   return (
-    <div className="min-h-screen bg-slate-950">
+    <div className="min-h-screen bg-linear-to-b from-blue-950/25 via-slate-950 to-slate-400">
       <Header total={tarefas.length} concluidas={totalConcluidas} />
 
       <main className="mx-auto flex max-w-3xl flex-col gap-6 px-6 py-8">
