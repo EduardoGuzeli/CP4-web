@@ -6,7 +6,7 @@ import TaskList from "./components/taskList/TaskList";
 import Footer from "./components/footer/Footer";
 
 // Chave usada para salvar/ler as tarefas no localStorage do navegador
-const STORAGE_KEY = "devtasks_tarefas";
+const STORAGE_KEY = "Gerenciador_de_Tarefas";
 
 function App() {
   // useState: guarda a lista de tarefas em memória.

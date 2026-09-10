@@ -1,4 +1,4 @@
-# 📋 DevTasks — Sistema de Lista de Tarefas do Programador
+# 📋 Gerenciador de Tarefas — Sistema de Lista de Tarefas do Programador
 
 **Checkpoint 4 — Web Dev — FIAP**
 
@@ -6,7 +6,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **DevTasks** é um sistema de lista de tarefas voltado para programadores, desenvolvido como parte do **Checkpoint 4 da disciplina de Web Dev da FIAP**.
+O **Gerenciador de Tarefas** é um sistema de lista de tarefas voltado para programadores, desenvolvido como parte do **Checkpoint 4 da disciplina de Web Dev da FIAP**.
 
 A aplicação permite cadastrar, visualizar, filtrar, concluir e remover tarefas do dia a dia de desenvolvimento, com persistência automática dos dados no navegador através do `localStorage`.
 
@@ -61,7 +61,7 @@ App
 
 ## 💾 Utilização do LocalStorage
 
-O projeto utiliza a chave `devtasks_tarefas` no `localStorage` do navegador para armazenar a lista de tarefas em formato JSON.
+O projeto utiliza a chave `Gerenciador_de_Tarefas` no `localStorage` do navegador para armazenar a lista de tarefas em formato JSON.
 
 Um `useEffect` observa mudanças no estado das tarefas e salva automaticamente os dados sempre que a lista é alterada (nova tarefa, tarefa concluída ou removida). Ao carregar a aplicação, o estado inicial do `useState` já recupera os dados salvos anteriormente.
 

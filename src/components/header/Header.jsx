@@ -9,7 +9,7 @@ function Header({ total, concluidas }) {
           Organização para devs
         </p>
         <h1 className="mt-2 text-3xl font-bold text-slate-50 sm:text-4xl">
-          DevTasks
+          Gerenciador de Tarefas
         </h1>
         <p className="mt-2 text-slate-50">
           Gerencie as tarefas do seu dia a dia como programador.
