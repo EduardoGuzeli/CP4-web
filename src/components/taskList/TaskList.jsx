@@ -11,7 +11,7 @@ function TaskList({ tarefas, onToggleConcluida, onRemoveTarefa }) {
   }
 
   return (
-    <u>
+    <ul className="flex flex-col gap-3">
       {tarefas.map((tarefa) => (
         <TaskItem
           key={tarefa.id}
@@ -20,7 +20,7 @@ function TaskList({ tarefas, onToggleConcluida, onRemoveTarefa }) {
           onRemoveTarefa={onRemoveTarefa}
         />
       ))}
-    </u>
+    </ul>
   );
 }
 

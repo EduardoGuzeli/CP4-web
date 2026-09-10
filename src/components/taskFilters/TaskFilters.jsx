@@ -10,7 +10,7 @@ const OPCOES = [
 
 function TaskFilters({ filtroAtivo, onChangeFilter }) {
   return (
-    <div>
+    <div className="flex flex-wrap justify-center gap-2">
       {OPCOES.map((opcao) => (
         <button
           key={opcao.valor}

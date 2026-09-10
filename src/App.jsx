@@ -62,10 +62,10 @@ function App() {
   const totalConcluidas = tarefas.filter((t) => t.concluida).length;
 
   return (
-    <div>
+    <div className="min-h-screen bg-slate-950">
       <Header total={tarefas.length} concluidas={totalConcluidas} />
 
-      <main>
+      <main className="mx-auto flex max-w-3xl flex-col gap-6 px-6 py-8">
         <TaskForm onAddTask={adicionarTarefa} />
 
         <TaskFilters filtroAtivo={filtro} onChangeFilter={setFiltro} />

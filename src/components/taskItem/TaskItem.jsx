@@ -13,17 +13,19 @@ function TaskItem({ tarefa, onToggleConcluida, onRemoveTarefa }) {
   const corBadge = CORES_PRIORIDADE[tarefa.prioridade] ?? CORES_PRIORIDADE.Média;
 
   return (
-    <li >
+    <li className="flex items-start gap-3 rounded-xl border border-slate-800 bg-slate-900 p-4 shadow-sm">
       <input
         type="checkbox"
         checked={tarefa.concluida}
         onChange={() => onToggleConcluida(tarefa.id)}
-       
+        className="mt-1.5 h-4 w-4 accent-indigo-600"
       />
 
-      <div>
-        <div>
-          <h3>
+      <div className="min-w-0 flex-1"> 
+        <div className="flex flex-wrap items-center gap-2">
+          <h3 className={`font-medium ${
+              tarefa.concluida ? "text-slate-500 line-through" : "text-slate-100"
+            }`}>
             {tarefa.nome}
           </h3>
           <span className={`rounded-full border px-2 py-0.5 text-xs font-medium ${corBadge}`}>
@@ -32,11 +34,11 @@ function TaskItem({ tarefa, onToggleConcluida, onRemoveTarefa }) {
         </div>
 
         {tarefa.descricao && (
-          <p>{tarefa.descricao}</p>
+          <p className="mt-1 text-sm text-slate-400">{tarefa.descricao}</p>
         )}
 
         {tarefa.data && (
-          <p>
+          <p className="mt-1 text-xs text-slate-500">
             📅 {new Date(tarefa.data + "T00:00:00").toLocaleDateString("pt-BR")}
           </p>
         )}
@@ -44,6 +46,7 @@ function TaskItem({ tarefa, onToggleConcluida, onRemoveTarefa }) {
 
       <button
         onClick={() => onRemoveTarefa(tarefa.id)}
+        className="shrink-0 rounded-lg px-2 py-1 text-sm text-slate-500 transition hover:bg-rose-500/10 hover:text-rose-400"
        aria-label="Remover tarefa"
       >
         Remover
