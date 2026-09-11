@@ -1,7 +1,4 @@
-// Componente TaskFilters: botões para alternar entre os filtros de visualização
-// (Todas, Pendentes, Concluídas). O estado do filtro ativo é controlado pelo
-// componente pai (App) e recebido aqui via props, junto com a callback
-// "onChangeFilter" que atualiza esse estado.
+
 const OPCOES = [
   { valor: "todas", rotulo: "Todas" },
   { valor: "pendentes", rotulo: "Pendentes" },

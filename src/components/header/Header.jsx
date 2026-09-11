@@ -1,6 +1,4 @@
-// Componente Header: cabeçalho da aplicação.
-// Recebe via props a quantidade total de tarefas e a quantidade já concluídas,
-// para exibir um pequeno resumo de progresso ao usuário.
+
 function Header({ total, concluidas }) {
   return (
     <header className="border-b border-slate-800 bg-slate-950/25 backdrop-blur">

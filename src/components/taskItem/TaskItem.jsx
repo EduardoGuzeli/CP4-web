@@ -5,10 +5,7 @@ const CORES_PRIORIDADE = {
   Baixa: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
 };
 
-// Componente TaskItem: representa uma única tarefa na lista.
-// É um componente "filho" que recebe a tarefa e as callbacks de ação
-// (concluir/remover) via props, e apenas dispara essas callbacks quando
-// o usuário interage — quem realmente altera o estado é o componente App.
+
 function TaskItem({ tarefa, onToggleConcluida, onRemoveTarefa }) {
   const corBadge = CORES_PRIORIDADE[tarefa.prioridade] ?? CORES_PRIORIDADE.Média;
 

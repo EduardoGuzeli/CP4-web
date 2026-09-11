@@ -56,7 +56,7 @@ function App() {
   const tarefasFiltradas = tarefas.filter((tarefa) => {
     if (filtro === "pendentes") return !tarefa.concluida;
     if (filtro === "concluidas") return tarefa.concluida;
-    return true; // "todas"
+    return true;
   });
 
   const totalConcluidas = tarefas.filter((t) => t.concluida).length;

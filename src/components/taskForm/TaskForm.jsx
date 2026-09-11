@@ -1,9 +1,6 @@
 import { useState } from "react";
 
-// Componente TaskForm: formulário de cadastro de uma nova tarefa.
-// Mantém o estado dos campos do formulário localmente (useState) e,
-// ao ser enviado, repassa a nova tarefa para o componente pai (App)
-// através da callback "onAddTask" recebida por props.
+
 function TaskForm({ onAddTask }) {
   // Estado local com os dados do formulário
   const [nome, setNome] = useState("");
@@ -19,7 +16,7 @@ function TaskForm({ onAddTask }) {
 
     // Monta o objeto da tarefa e envia para o componente pai via callback
     onAddTask({
-      id: Date.now(), // id único simples baseado no timestamp
+      id: Date.now(),
       nome: nome.trim(),
       data,
       descricao: descricao.trim(),
@@ -27,7 +24,6 @@ function TaskForm({ onAddTask }) {
       concluida: false,
     });
 
-    // Limpa o formulário após o cadastro
     setNome("");
     setData("");
     setDescricao("");
