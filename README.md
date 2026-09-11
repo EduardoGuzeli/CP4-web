@@ -14,6 +14,12 @@ O projeto foi construído com **React + Vite**, utilizando **Tailwind CSS** para
 
 ---
 
+## 🔗 Links
+
+- **[🌐 Projeto publicado](https://cp4-webdev-ten.vercel.app/)**
+- **[💻 Repositório no GitHub](https://github.com/EduardoGuzeli/CP4-web)**
+
+---
 ## 🎯 Objetivo
 
 Aplicar, em grupo, os principais conceitos de desenvolvimento front-end com React, incluindo:
@@ -76,7 +82,7 @@ Um `useEffect` observa mudanças no estado das tarefas e salva automaticamente o
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React.js** — biblioteca para construção da interface;
+- **React** — biblioteca para construção da interface;
 - **Vite** — ferramenta de desenvolvimento e build;
 - **Tailwind CSS** — estilização utilitária da interface;
 - **JavaScript (ES6+)** — lógica e funcionalidades;
@@ -117,8 +123,6 @@ dev-tasks/
 ├── index.html
 ├── integrantes.txt
 ├── package.json
-├── postcss.config.js
-├── tailwind.config.js
 ├── vite.config.js
 └── README.md
 ```
@@ -138,7 +142,7 @@ dev-tasks/
 **1. Clonar o repositório**
 
 ```
-git clone <link-do-repositorio>
+git clone https://github.com/EduardoGuzeli/CP4-web.git
 ```
 
 **2. Entrar na pasta do projeto**
@@ -169,12 +173,6 @@ http://localhost:5173
 
 ---
 
-## 👤 Usuários e Senhas
-
-O projeto não possui sistema de autenticação ou login. Não são necessários usuários ou senhas para acessar e testar a aplicação.
-
----
-
 ## 👨‍💻 Integrantes
 
 | Integrante                    | RM     |
@@ -192,11 +190,6 @@ Projeto desenvolvido para a disciplina de **Web Dev**, sob orientação do Profe
 
 ---
 
-## 🔗 Repositório GitHub
-
-**[🌐 Acessar Projeto](https://cp4-webdev-ten.vercel.app/)**
-
----
 
 ## 📄 Licença
 
