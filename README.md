@@ -95,7 +95,7 @@ Um `useEffect` observa mudanças no estado das tarefas e salva automaticamente o
 ## 📂 Estrutura do Projeto
 
 ```
-dev-tasks/
+CP4-web/
 │
 ├── src/
 │   │
